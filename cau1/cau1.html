@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function findMax() {
+        let point = [4,2,9,5,6,8];
+        let max = point[0];
+        for (let i=1;i<point.length;i++){
+            if (max < point[i]){
+                max = point[i];
+            }
+        }
+        console.log(max);
+
+    }
+    findMax();
+</script>
+</body>
+</html>
